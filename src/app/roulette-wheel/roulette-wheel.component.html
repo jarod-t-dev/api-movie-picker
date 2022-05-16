@@ -1,0 +1,17 @@
+<div class="spin">
+  <h1>Welcome to Jarod's Movie Picker</h1>
+  <p>Don't know what movie to watch? Spin the wheel below to find trending movies of a random genre.</p>
+  <button class="btn btn-success" (click)="spinTheWheel()">{{spinButton}}</button>
+  <br>
+</div>
+
+<div class="result">
+  <ng-container [ngSwitch]="movieFilter">
+    <img *ngSwitchDefault src="../assets/spinner.gif">
+    <h2 *ngSwitchCase=1>The wheel thinks you should watch {{sentenceStructure}} movie.</h2>
+    <h2 *ngSwitchCase=2>The wheel thinks you should watch {{sentenceStructure}}.</h2>
+    <h2 *ngSwitchCase=3>The wheel thinks you should watch {{sentenceStructure}} show.</h2>
+    <h2 *ngSwitchCase=4>The wheel thinks you should watch {{sentenceStructure}}s movie.</h2>
+  </ng-container>
+  <button *ngIf="moviePick" class="btn btn-success" (click)="findGenre()">Click here to find trending {{moviePick}} content!</button>
+</div>

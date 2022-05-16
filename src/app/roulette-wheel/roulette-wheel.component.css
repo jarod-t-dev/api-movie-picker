@@ -1,0 +1,36 @@
+.spin {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  padding: 15px;
+  position: inherit;
+}
+
+h1 {
+  padding: 10px;
+  font-family: "Montserrat-Regular";
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 14pt;
+  font-family: "Montserrat-Regular";
+}
+
+img {
+  margin: auto;
+  height: auto;
+  display: block;
+  padding: 10px;
+  width: 100px;
+}
+
+button {
+  font-family: Montserrat-Regular;
+}
