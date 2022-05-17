@@ -85,7 +85,7 @@ export class RouletteWheelComponent implements OnInit {
   ngOnInit(): void {
     let headers = new HttpHeaders({
       'X-RapidAPI-Host': 'data-imdb1.p.rapidapi.com',
-      'X-RapidAPI-Key': 'eaa56f021cmsh1d4c38315bf58ccp17d3e6jsna3f17453c0bd'
+      'X-RapidAPI-Key': '5a9337323cmshbfd37230fa22185p1606ebjsn044038e0c161'
     });
     this.http
       .get<GenreDataWrapper>('https://data-imdb1.p.rapidapi.com/titles/utils/genres', {
