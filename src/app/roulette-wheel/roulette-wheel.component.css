@@ -11,16 +11,16 @@
   position: inherit;
 }
 
-h1 {
+h1, h2 {
   padding: 10px;
-  font-family: "Montserrat-Regular";
+  font-family: Montserrat;
   text-align: center;
 }
 
 p {
   text-align: center;
   font-size: 14pt;
-  font-family: "Montserrat-Regular";
+  font-family: Montserrat;
 }
 
 img {
@@ -32,5 +32,5 @@ img {
 }
 
 button {
-  font-family: Montserrat-Regular;
+  font-family: Montserrat;
 }
