@@ -1,0 +1,34 @@
+export interface GenreData {
+  genre: string;
+  url: string;
+}
+
+export const genreData: Array<GenreData> = [
+  {genre: "Action", url: "https://www.imdb.com/search/title?genres=action&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_1"},
+  {genre: "Adventure", url: "https://www.imdb.com/search/title?genres=adventure&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_2"},
+  {genre: "Animation", url: "https://www.imdb.com/search/title?genres=animation&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_3"},
+  {genre: "Biography", url: "https://www.imdb.com/search/title?genres=biography&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_4"},
+  {genre: "Comedy", url: "https://www.imdb.com/search/title?genres=comedy&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_5"},
+  {genre: "Crime", url: "https://www.imdb.com/search/title?genres=crime&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_6"},
+  {genre: "Documentary", url: "https://www.imdb.com/search/title?genres=documentary&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_7"},
+  {genre: "Drama", url: "https://www.imdb.com/search/title?genres=drama&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_8"},
+  {genre: "Family", url: "https://www.imdb.com/search/title?genres=family&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_9"},
+  {genre: "Fantasy", url: "https://www.imdb.com/search/title?genres=fantasy&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_10"},
+  {genre: "Film-Noir", url: "https://www.imdb.com/search/title?genres=film-noir&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_11"},
+  {genre: "Game-Show", url: "https://www.imdb.com/search/title/?&genres=game_show&genres"},
+  {genre: "History", url: "https://www.imdb.com/search/title?genres=history&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_12"},
+  {genre: "Horror", url: "https://www.imdb.com/search/title?genres=horror&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_13"},
+  {genre: "Music", url: "https://www.imdb.com/search/title?genres=music&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_14"},
+  {genre: "Musical", url: "https://www.imdb.com/search/title?genres=musical&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_15"},
+  {genre: "Mystery", url: "https://www.imdb.com/search/title?genres=mystery&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_16"},
+  {genre: "Romance", url: "https://www.imdb.com/search/title?genres=romance&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_17"},
+  {genre: "Reality-TV", url: "https://www.imdb.com/search/title/?&genres=reality_tv&genres"},
+  {genre: "Sci-Fi", url: "https://www.imdb.com/search/title?genres=sci-fi&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_18"},
+  {genre: "Short", url: "https://www.imdb.com/search/title?genres=short&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_19"},
+  {genre: "Sport", url: "https://www.imdb.com/search/title?genres=sport&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_20"},
+  {genre: "Superhero", url: "https://www.imdb.com/search/keyword?keywords=superhero&title_type=movie&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_21"},
+  {genre: "Thriller", url: "https://www.imdb.com/search/title?genres=thriller&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_22"},
+  {genre: "Talk-Show", url: "https://www.imdb.com/search/title/?&genres=talk_show&genres"},
+  {genre: "War", url: "https://www.imdb.com/search/title?genres=war&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_23"},
+  {genre: "Western", url: "https://www.imdb.com/search/title?genres=western&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GVTXEE2Z4D94ZGJ0BSPJ&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_24"},
+]
