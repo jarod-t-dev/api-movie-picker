@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { RouletteWheelComponent } from './roulette-wheel.component';
+import {RouletteWheelComponent} from './roulette-wheel.component';
 
 describe('RouletteWheelComponent', () => {
   let component: RouletteWheelComponent;
@@ -8,9 +8,9 @@ describe('RouletteWheelComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RouletteWheelComponent ]
+      declarations: [RouletteWheelComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

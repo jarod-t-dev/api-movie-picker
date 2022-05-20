@@ -22,12 +22,11 @@ export class RouletteWheelComponent implements OnInit {
     this.moviePick = this.genres[Math.floor(Math.random() * this.genres.length)]
     if (this.arrOfVowels.includes(this.moviePick[0])) {
       this.sentenceStructure = "an " + this.moviePick
-    }
-    else {
+    } else {
       this.sentenceStructure = "a " + this.moviePick
     }
     let selectedGenre = this.moviePick
-    this.url = genreData.find(function(item){
+    this.url = genreData.find(function (item) {
       return item.genre == selectedGenre
     }).url
     console.log(this.moviePick)
